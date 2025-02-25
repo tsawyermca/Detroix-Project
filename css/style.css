@@ -83,7 +83,7 @@ body{
     display: flex;
     justify-content: space-evenly;
     width: 100%;
-    margin: 0px 15px;
+    margin: 0px 15px 0px -5px;
 }
 
 .section2{
@@ -95,6 +95,7 @@ body{
     padding-left: 25px;
     padding-top: 30px;
     flex: 1 1 300px;
+    position: relative;
 }
 
 .imgtext{
@@ -150,6 +151,7 @@ body{
     display: flex;
     font-family: "Manrope", sans-serif;
     color: #ffffff;
+    position: relative;
 }
 
 .section3box{
@@ -163,6 +165,7 @@ body{
 }
 
 .section3box1{
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
@@ -187,12 +190,13 @@ ul{
 }
 
 .section3box2{
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
     font-weight: 800;
     font-size: 36px;
-    margin: 50px 75px;
+    margin: 50px 105px 50px 185px;
     padding: 0 0 0 40px;
 }
 
@@ -220,12 +224,13 @@ ul{
 }
 
 .section3box3{
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
     font-weight: 800;
     font-size: 40px;
-    margin: 50px 20px;
+    margin: 50px 50px 50px 100px;
 }
 
 .novbox{
@@ -233,12 +238,12 @@ ul{
     justify-content: flex-start;
     align-items: center;
     margin-top: 30px;
-    margin-bottom: -65px;
+    margin-bottom: -35px;
 }
 
 .novnum{
-    width: 75px;
-    height: 75px;
+    max-width: 75px;
+    max-height: 75px;
     font-size: 44px;
     font-weight: 600;
     display: flex;
@@ -288,7 +293,7 @@ ul{
 }
 
 .bs5{
-    margin-top: 105px;
+    margin-top: 80px;
 }
 
 .footer{
